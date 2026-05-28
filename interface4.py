@@ -20,7 +20,8 @@ class Application:
         self.quartoContainer.pack()
 
         self.titulo = Label(self.primeiroContainer, text="Dados do usuário")
-        self.titulo["font"] = ("Arial", "10", "bold")
+        self.titulo["font"] = ("Arial", "15", "bold")
+        self.titulo["fg"] = "red"
         self.titulo.pack()
 
         self.nomeLabel = Label(self.segundoContainer,text="Nome", font=self.fontePadrao)
