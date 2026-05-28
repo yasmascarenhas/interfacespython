@@ -61,7 +61,7 @@ class Application:
         if usuario == "Yasmin" and senha == "123":
             self.mensagem["text"] = "Autenticado"
         else:
-            self.mensagem["text"] = " "Usuário ou senha incorretos""
+            self.mensagem["text"] = "Usuário ou senha incorretos"
 
 
 root = Tk()
