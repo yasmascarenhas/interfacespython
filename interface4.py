@@ -61,6 +61,8 @@ class Application:
         senha = self.senha.get()
         if usuario == "Yasmin" and senha == "123":
             self.mensagem["text"] = "Autenticado"
+        elif usuario == "" or senha == "":
+            self.mensagem["text"] = "Campo em branco, favor preencher"
         else:
             self.mensagem["text"] = "Usuário ou senha incorretos"
 
